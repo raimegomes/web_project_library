@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <!-- Agrupe todo o conteúdo da página em uma nova div com a classe page. Lembre-se de adicionar a tag de fechamento -->
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo da Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- Colocar links de navegação em uma lista é supostamente a melhor prática para escrever o código semântico, pois permite que os leitores de tela façam uma pausa entre cada link em vez de ler todos os links como uma frase. -->
+
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff">Escolhas do leitor</a>
+            </li>
+            <li>
+              <a class="nav__link">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link">Seja um membro</a>
+            </li>
+            <li>
+              <a class="nav__link">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">Bem-vindo à Biblioteca Triple Peaks</h1>
+            <p class="header__description">
+              Temos o prazer de abrir as portas da nossa biblioteca a todos!
+              Venha expandir seus conhecimentos de desenvolvimento, ou apenas
+              use esse belo local para trabalhar ou estudar. Esse é um lugar
+              legal para estudantes legais!
+            </p>
+          </div>
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustração 'Dentro da biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="staff" id="staff">
+          <h2 class="staff__title">Escolhas do leitor</h2>
+          <p class="staff__subtitle">Que nossos leitores adoram</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Amirável Mundo Novo</h3>
+                <p class="card__text">
+                  A história se passa em Londres no ano 2540, o romance antecipa
+                  desenvolvimentos em tecnologia reprodutiva, hipnopedia,
+                  manipulação psicológica e condicionamento clássico, que se
+                  combinam para mudar profundamente a sociedade.
+                </p>
+                <p class="card__footer">Aldous Huxley</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Nunca Desista de Seus Sonhos</h3>
+                <p class="card__text">
+                  "Precisamos perseguir nossos mais belos sonhos. Desistir é uma
+                  palavra que tem que ser eliminada do dicionário de quem sonha
+                  e deseja conquistar. Não se esqueça de que você vai falhar
+                  100% das vezes em que não tentar, vai perder 100% das vezes em
+                  que não procurar, vai estacionar 100% das vezes em que não
+                  ousar caminhar."
+                </p>
+                <p class="card__footer">Augusto Cury</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Bíblia Sagrada</h3>
+                <p class="card__text">
+                  Viemos à Terra para aprender, fazer boas escolhas, ser
+                  testados e crescer. Nossa existência não vai acabar depois da
+                  morte. Todos ressuscitaremos como Jesus ressuscitou. Se
+                  escolhermos seguir Jesus nesta vida, poderemos viver novamente
+                  com Ele e nosso Pai Celestial.
+                </p>
+                <p class="card__footer">Deus</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  Originais: Como os Inconformistas Mudam o Mundo
+                </h3>
+                <p class="card__text">
+                  Este livro recorre a uma série de estudos e histórias reais
+                  envolvendo o mundo dos negócios, a política, os esportes e o
+                  universo do entretenimento para mostrar como qualquer pessoa
+                  pode aprimorar sua criatividade, tornar-se capaz de
+                  identificar e defender ideias verdadeiramente originais,
+                  combater o conformismo e romper com tradições obsoletas.
+                </p>
+                <p class="card__footer">Adam Grant</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
