@@ -341,7 +341,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: black;
+  background-color: #1f1f1f;
   color: #ffffff;
   padding: 60px 80px;
 }
