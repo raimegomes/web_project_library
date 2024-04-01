@@ -311,7 +311,8 @@
 
 .membership__steps {
   list-style-type: none;
-
+  padding: 0%;
+  column-gap: 40px;
   margin: 100px 0 0;
   flex-basis: 100%;
   display: flex;
@@ -320,7 +321,6 @@
 
 .step {
   flex-basis: 220px;
-  padding-right: 40px;
 }
 .step__title {
   margin: 0;
@@ -343,10 +343,10 @@
   box-sizing: border-box;
   background-color: #000000;
   color: #ffffff;
+  padding: 60px 80px;
 }
 
 .footer__columns {
-  padding: 60px 80px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -382,12 +382,14 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
